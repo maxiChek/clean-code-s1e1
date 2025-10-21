@@ -28,12 +28,12 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task__element {
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-row__wrapper {
+.task-row {
   display: flex;
 }
 ul {
