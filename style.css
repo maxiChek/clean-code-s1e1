@@ -4,35 +4,35 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.matrix-info__eisenhower {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.matrix-info__eisenhower img {
   width: 100%;
 }
-.aaa .more_inf {
+.matrix-info__eisenhower .more-inf__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .matrix-info__eisenhower {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.main-page__element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task__element {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.task-row__wrapper {
   display: flex;
 }
 ul {
@@ -91,8 +91,8 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
-  width: 318px;
+#new-task-id {
+  width: 478px;
 }
 
 /* Task list */
