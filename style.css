@@ -11,9 +11,11 @@ body {
   display: block;
   text-align: right;
 }
+
 .matrix-info__eisenhower .header-image {
   width: 100%;
 }
+
 .matrix-info__eisenhower .more-inf__link {
   font-family: fantasy, cursive;
 }
@@ -36,10 +38,12 @@ body {
 .task-row {
   display: flex;
 }
+
 ul {
   margin: 0;
   padding: 0px;
 }
+
 li,
 h3 {
   list-style: none;
