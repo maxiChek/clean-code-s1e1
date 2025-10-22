@@ -11,7 +11,7 @@ body {
   display: block;
   text-align: right;
 }
-.matrix-info__eisenhower img {
+.matrix-info__eisenhower .header-image {
   width: 100%;
 }
 .matrix-info__eisenhower .more-inf__link {
@@ -71,7 +71,7 @@ label[for='new-task'] {
   margin: 0;
   text-transform: uppercase;
 }
-input[type='text'] {
+#new-task-id {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -83,7 +83,7 @@ input[type='text'] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type='text']:focus {
+#new-task-id:focus {
   color: #333;
 }
 
@@ -122,12 +122,12 @@ li > label {
 li > input[type='text'] {
   width: 226px;
 }
-button.delete img {
+.delete-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete-image:hover {
   transform: rotateZ(0);
 }
 
